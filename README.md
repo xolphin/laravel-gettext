@@ -2,26 +2,26 @@
 
 *Laravel Gettext* is a package compatible with the great Laravel PHP Framework. It provides a simple way to add localization support to Laravel applications. It is designed to work with *GNU gettext* and *Poedit*. Former versions of this package (before 4.x) works with the native php-gettext module. Current versions uses the Symfony translation package by default instead of native php extension.
 
-[![Stable build Status](https://travis-ci.org/Belphemur/laravel-gettext.png?branch=7.1.0)](https://travis-ci.org/Belphemur/laravel-gettext) [Latest Laravel 5.6.x  & 5.7.x stable release (7.1.0)](https://github.com/Belphemur/laravel-gettext/tree/7.0.0)
+[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=7.1.0)](https://travis-ci.org/zerospam/laravel-gettext) [Latest Laravel 5.6.x  & 5.7.x stable release (7.1.0)](https://github.com/zerospam/laravel-gettext/tree/7.0.0)
 
 > Note: This documentation applies to laravel 5.5.x and master branch. For older versions of laravel check the following links:
 
 ### Older versions
-[![Stable build Status](https://travis-ci.org/Belphemur/laravel-gettext.png?branch=6.1.0)](https://travis-ci.org/Belphemur/laravel-gettext) [Latest Laravel 5.5.x stable release (6.1.0)](https://github.com/Belphemur/laravel-gettext/tree/6.1.0)
+[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=6.1.0)](https://travis-ci.org/zerospam/laravel-gettext) [Latest Laravel 5.5.x stable release (6.1.0)](https://github.com/zerospam/laravel-gettext/tree/6.1.0)
 
-[![Stable build Status](https://travis-ci.org/Belphemur/laravel-gettext.png?branch=5.0.2)](https://travis-ci.org/Belphemur/laravel-gettext) <a href="https://github.com/Belphemur/laravel-gettext/tree/5.0.2">Latest Laravel 5.4.x stable release (5.0.2)</a>
+[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=5.0.2)](https://travis-ci.org/zerospam/laravel-gettext) <a href="https://github.com/zerospam/laravel-gettext/tree/5.0.2">Latest Laravel 5.4.x stable release (5.0.2)</a>
 
-[![Stable build Status](https://travis-ci.org/Belphemur/laravel-gettext.png?branch=4.0.4)](https://travis-ci.org/Belphemur/laravel-gettext) <a href="https://github.com/Belphemur/laravel-gettext/tree/4.0.4">Latest Laravel 5.3.x stable release (4.0.4)</a>
+[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=4.0.4)](https://travis-ci.org/zerospam/laravel-gettext) <a href="https://github.com/zerospam/laravel-gettext/tree/4.0.4">Latest Laravel 5.3.x stable release (4.0.4)</a>
 
-[![Stable build Status](https://travis-ci.org/Belphemur/laravel-gettext.png?branch=3.1.0)](https://travis-ci.org/Belphemur/laravel-gettext) <a href="https://github.com/Belphemur/laravel-gettext/tree/3.1.0">Latest Laravel 5.2.x stable release (3.1.0)</a>
+[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=3.1.0)](https://travis-ci.org/zerospam/laravel-gettext) <a href="https://github.com/zerospam/laravel-gettext/tree/3.1.0">Latest Laravel 5.2.x stable release (3.1.0)</a>
 
-[![Stable build Status](https://travis-ci.org/Belphemur/laravel-gettext.png?branch=3.0.3)](https://travis-ci.org/Belphemur/laravel-gettext) <a href="https://github.com/Belphemur/laravel-gettext/tree/3.0.3">Latest Laravel 5.1.x stable release (3.0.3)</a>
+[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=3.0.3)](https://travis-ci.org/zerospam/laravel-gettext) <a href="https://github.com/zerospam/laravel-gettext/tree/3.0.3">Latest Laravel 5.1.x stable release (3.0.3)</a>
 
-[![Stable build Status](https://travis-ci.org/Belphemur/laravel-gettext.png?branch=2.0.3)](https://travis-ci.org/Belphemur/laravel-gettext) <a href="https://github.com/Belphemur/laravel-gettext/tree/2.0.3">Latest Laravel 5.0 stable release (2.0.3)</a>
+[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=2.0.3)](https://travis-ci.org/zerospam/laravel-gettext) <a href="https://github.com/zerospam/laravel-gettext/tree/2.0.3">Latest Laravel 5.0 stable release (2.0.3)</a>
 
-[![Stable build Status](https://travis-ci.org/Belphemur/laravel-gettext.png?branch=1.0.3)](https://travis-ci.org/Belphemur/laravel-gettext) <a href="https://github.com/Belphemur/laravel-gettext/tree/1.0.3">Latest Laravel 4.x stable release (1.0.3)</a>
+[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=1.0.3)](https://travis-ci.org/zerospam/laravel-gettext) <a href="https://github.com/zerospam/laravel-gettext/tree/1.0.3">Latest Laravel 4.x stable release (1.0.3)</a>
 
-[![Dev build Status](https://travis-ci.org/Belphemur/laravel-gettext.png?branch=master)](https://travis-ci.org/Belphemur/laravel-gettext) <a href="https://github.com/Belphemur/laravel-gettext/tree/master">Development master</a> Unstable, only for development (dev-master)
+[![Dev build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=master)](https://travis-ci.org/zerospam/laravel-gettext) <a href="https://github.com/zerospam/laravel-gettext/tree/master">Development master</a> Unstable, only for development (dev-master)
 
 ### 1. Requirements
 
@@ -199,7 +199,7 @@ With symfony complex syntax:
 
 Open the PO file for the language that you want to translate with Poedit. The PO files are located by default in **resources/lang/i18n/[locale]/LC_MESSAGES/[domain].po**. If you have multiple gettext domains, one file is generated by each domain.
 
-<img src="https://raw.github.com/Belphemur/laravel-gettext/master/doc/poedit.png" />
+<img src="https://raw.github.com/zerospam/laravel-gettext/master/doc/poedit.png" />
 
 Once Poedit is loaded press the Update button to load all localized strings. You can repeat this step anytime you add a new localized string.
 
