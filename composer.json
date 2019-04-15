@@ -1,7 +1,7 @@
 {
     "name": "zerospam/laravel-gettext",
     "description": "Adds localization support to laravel applications in an easy way using Poedit and GNU gettext.",
-    "homepage": "https://github.com/Belphemur/laravel-gettext",
+    "homepage": "https://github.com/zerospam/laravel-gettext",
     "keywords": [
         "gettext",
         "localization",
@@ -17,11 +17,11 @@
         },
         {
             "name": "Antoine Aflalo",
-            "email": "antoine.aflalo@zerospam.ca"
+            "email": "dev+laravel_gettext@zerospam.ca"
         }
     ],
     "support": {
-        "issues": "https://github.com/Belphemur/laravel-gettext/issues"
+        "issues": "https://github.com/zerospam/laravel-gettext/issues"
     },
     "require": {
         "php": ">=7.1",
