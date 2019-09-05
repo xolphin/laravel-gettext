@@ -34,7 +34,7 @@ class TranslationTest extends BaseTestCase
      */
     protected $translator;
 
-    public function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         $testConfig = include __DIR__ . '/../config/config_fr.php';
