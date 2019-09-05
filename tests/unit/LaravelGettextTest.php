@@ -25,7 +25,7 @@ class LaravelGettextTest extends BaseTestCase
      */
     protected $translator;
 
-    public function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         $testConfig = include __DIR__ . '/../config/config.php';
@@ -102,7 +102,7 @@ class LaravelGettextTest extends BaseTestCase
         $this->assertInstanceOf('Xinax\LaravelGettext\Translators\Symfony', $response);
     }
 
-    public function tearDown()
+    protected function tearDown(): void
     {
         m::close();
     }
