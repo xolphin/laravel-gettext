@@ -71,8 +71,8 @@ class FileSystem
     /**
      * Build views in order to parse php files
      *
-     * @param array $viewPaths
-     * @param string $domain
+     * @param  array  $viewPaths
+     * @param  string $domain
      * @return bool
      * @throws FileCreationException
      */
@@ -122,7 +122,8 @@ class FileSystem
 
     /**
      * Constructs and returns the full path to the translation files
-     * @param null $append
+     *
+     * @param  null $append
      * @return string
      */
     public function getDomainPath($append = null)
@@ -144,10 +145,10 @@ class FileSystem
      * Creates a configured .po file on $path
      * If PHP are not able to create the file the content will be returned instead
      *
-     * @param string $path
-     * @param string $locale
-     * @param string $domain
-     * @param bool|true $write
+     * @param  string    $path
+     * @param  string    $locale
+     * @param  string    $domain
+     * @param  bool|true $write
      * @return int|string
      */
     public function createPOFile($path, $locale, $domain, $write = true)
@@ -211,7 +212,7 @@ class FileSystem
     /**
      * Validate if the directory can be created
      *
-     * @param $path
+     * @param  $path
      * @throws FileCreationException
      */
     protected function createDirectory($path)
@@ -226,8 +227,8 @@ class FileSystem
     /**
      * Adds a new locale directory + .po file
      *
-     * @param  String                $localePath
-     * @param  String                $locale
+     * @param  String $localePath
+     * @param  String $locale
      * @throws FileCreationException
      */
     public function addLocale($localePath, $locale)
@@ -278,9 +279,9 @@ class FileSystem
      * Update the .po file headers by domain
      * (mainly source-file paths)
      *
-     * @param $localePath
-     * @param $locale
-     * @param $domain
+     * @param  $localePath
+     * @param  $locale
+     * @param  $domain
      * @return bool
      * @throws LocaleFileNotFoundException
      */
@@ -327,8 +328,8 @@ class FileSystem
     /**
      * Return the relative path from a file or directory to anothe
      *
-     * @param string $from
-     * @param string $to
+     * @param  string $from
+     * @param  string $to
      * @return string
      * @author Laurent Goussard
      */
@@ -376,7 +377,7 @@ class FileSystem
      * Checks the required directory
      * Optionally checks each local directory, if $checkLocales is true
      *
-     * @param bool|false $checkLocales
+     * @param  bool|false $checkLocales
      * @return bool
      * @throws DirectoryNotFoundException
      */
@@ -474,7 +475,7 @@ class FileSystem
     /**
      * Set the package configuration model
      *
-     * @param Config $configuration
+     * @param  Config $configuration
      * @return $this
      */
     public function setConfiguration(Config $configuration)
@@ -496,7 +497,7 @@ class FileSystem
     /**
      * Set the filesystem base path
      *
-     * @param $basePath
+     * @param  $basePath
      * @return $this
      */
     public function setBasePath($basePath)
@@ -518,7 +519,7 @@ class FileSystem
     /**
      * Set the storage path
      *
-     * @param $storagePath
+     * @param  $storagePath
      * @return $this
      */
     public function setStoragePath($storagePath)
@@ -530,7 +531,7 @@ class FileSystem
     /**
      * Get the full path for domain storage directory
      *
-     * @param $domain
+     * @param  $domain
      * @return String
      */
     public function getStorageForDomain($domain)
@@ -547,7 +548,7 @@ class FileSystem
     /**
      * Removes the directory contents recursively
      *
-     * @param string $path
+     * @param  string $path
      * @return null|boolean
      */
     public static function clearDirectory($path)
@@ -597,8 +598,8 @@ class FileSystem
     /**
      * Returns the full path for a .po/.mo file from its domain and locale
      *
-     * @param        $locale
-     * @param        $domain
+     * @param $locale
+     * @param $domain
      *
      * @param string $type
      *
@@ -606,11 +607,13 @@ class FileSystem
      */
     public function makeFilePath($locale, $domain, $type = 'po')
     {
-        $filePath = implode(DIRECTORY_SEPARATOR, [
+        $filePath = implode(
+            DIRECTORY_SEPARATOR, [
             $locale,
             'LC_MESSAGES',
             $domain . "." . $type
-        ]);
+            ]
+        );
 
         return $this->getDomainPath($filePath);
     }
