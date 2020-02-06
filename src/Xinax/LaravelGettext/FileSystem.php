@@ -245,7 +245,7 @@ class FileSystem
         if ($this->configuration->getCustomLocale()) {
             $data[1] = 'C';
 
-            $gettextPath = implode($data, DIRECTORY_SEPARATOR);
+            $gettextPath = implode(DIRECTORY_SEPARATOR, $data);
             if (!file_exists($gettextPath)) {
                 $this->createDirectory($gettextPath);
             }
@@ -253,7 +253,7 @@ class FileSystem
             $data[2] = 'LC_MESSAGES';
         }
 
-        $gettextPath = implode($data, DIRECTORY_SEPARATOR);
+        $gettextPath = implode(DIRECTORY_SEPARATOR, $data);
         if (!file_exists($gettextPath)) {
                 $this->createDirectory($gettextPath);
         }
@@ -263,7 +263,7 @@ class FileSystem
         foreach ($this->configuration->getAllDomains() as $domain) {
             $data[3] = $domain . ".po";
 
-            $localePOPath = implode($data, DIRECTORY_SEPARATOR);
+            $localePOPath = implode(DIRECTORY_SEPARATOR, $data);
 
             if (!$this->createPOFile($localePOPath, $locale, $domain)) {
                 throw new FileCreationException(
@@ -298,7 +298,7 @@ class FileSystem
             array_splice($data, 1, 0, $customLocale);
         }
 
-        $localePOPath = implode($data, DIRECTORY_SEPARATOR);
+        $localePOPath = implode(DIRECTORY_SEPARATOR, $data);
 
         if (!file_exists($localePOPath) || !$localeContents = file_get_contents($localePOPath)) {
             throw new LocaleFileNotFoundException(
