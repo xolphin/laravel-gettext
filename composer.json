@@ -24,7 +24,7 @@
         "issues": "https://github.com/zerospam/laravel-gettext/issues"
     },
     "require": {
-        "php": ">=7.3",
+        "php": ">=7.2.5",
         "laravel/framework": "^7.0 || ^8.0",
         "laravel/helpers": "^1.1"
     },
