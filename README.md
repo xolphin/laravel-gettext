@@ -7,21 +7,23 @@
 > Note: This documentation applies to laravel 5.5.x and up. For older versions of laravel check the following links:
 
 ### Older versions
-[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=7.1.0)](https://travis-ci.org/zerospam/laravel-gettext) [Latest Laravel 5.6.x  & 5.7.x stable release (7.1.0)](https://github.com/zerospam/laravel-gettext/tree/7.0.0)
+[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=8.0.1)](https://travis-ci.org/zerospam/laravel-gettext) [LATEST Laravel 8.x (8.0.1)](https://github.com/zerospam/laravel-gettext/tree/8.0.1)
 
-[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=6.1.0)](https://travis-ci.org/zerospam/laravel-gettext) [Latest Laravel 5.5.x stable release (6.1.0)](https://github.com/zerospam/laravel-gettext/tree/6.1.0)
+[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=7.1.0)](https://travis-ci.org/zerospam/laravel-gettext) [Laravel 5.6.x  & 5.7.x stable release (7.1.0)](https://github.com/zerospam/laravel-gettext/tree/7.1.0)
 
-[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=5.0.2)](https://travis-ci.org/zerospam/laravel-gettext) <a href="https://github.com/zerospam/laravel-gettext/tree/5.0.2">Latest Laravel 5.4.x stable release (5.0.2)</a>
+[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=6.1.0)](https://travis-ci.org/zerospam/laravel-gettext) [Laravel 5.5.x stable release (6.1.0)](https://github.com/zerospam/laravel-gettext/tree/6.1.0)
 
-[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=4.0.4)](https://travis-ci.org/zerospam/laravel-gettext) <a href="https://github.com/zerospam/laravel-gettext/tree/4.0.4">Latest Laravel 5.3.x stable release (4.0.4)</a>
+[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=5.0.2)](https://travis-ci.org/zerospam/laravel-gettext) <a href="https://github.com/zerospam/laravel-gettext/tree/5.0.2">Laravel 5.4.x stable release (5.0.2)</a>
 
-[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=3.1.0)](https://travis-ci.org/zerospam/laravel-gettext) <a href="https://github.com/zerospam/laravel-gettext/tree/3.1.0">Latest Laravel 5.2.x stable release (3.1.0)</a>
+[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=4.0.4)](https://travis-ci.org/zerospam/laravel-gettext) <a href="https://github.com/zerospam/laravel-gettext/tree/4.0.4">Laravel 5.3.x stable release (4.0.4)</a>
 
-[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=3.0.3)](https://travis-ci.org/zerospam/laravel-gettext) <a href="https://github.com/zerospam/laravel-gettext/tree/3.0.3">Latest Laravel 5.1.x stable release (3.0.3)</a>
+[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=3.1.0)](https://travis-ci.org/zerospam/laravel-gettext) <a href="https://github.com/zerospam/laravel-gettext/tree/3.1.0">Laravel 5.2.x stable release (3.1.0)</a>
 
-[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=2.0.3)](https://travis-ci.org/zerospam/laravel-gettext) <a href="https://github.com/zerospam/laravel-gettext/tree/2.0.3">Latest Laravel 5.0 stable release (2.0.3)</a>
+[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=3.0.3)](https://travis-ci.org/zerospam/laravel-gettext) <a href="https://github.com/zerospam/laravel-gettext/tree/3.0.3">Laravel 5.1.x stable release (3.0.3)</a>
 
-[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=1.0.3)](https://travis-ci.org/zerospam/laravel-gettext) <a href="https://github.com/zerospam/laravel-gettext/tree/1.0.3">Latest Laravel 4.x stable release (1.0.3)</a>
+[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=2.0.3)](https://travis-ci.org/zerospam/laravel-gettext) <a href="https://github.com/zerospam/laravel-gettext/tree/2.0.3">Laravel 5.0 stable release (2.0.3)</a>
+
+[![Stable build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=1.0.3)](https://travis-ci.org/zerospam/laravel-gettext) <a href="https://github.com/zerospam/laravel-gettext/tree/1.0.3">Laravel 4.x stable release (1.0.3)</a>
 
 [![Dev build Status](https://travis-ci.org/zerospam/laravel-gettext.png?branch=master)](https://travis-ci.org/zerospam/laravel-gettext) <a href="https://github.com/zerospam/laravel-gettext/tree/master">Development master</a> Unstable, only for development (dev-master)
 
