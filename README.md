@@ -10,7 +10,7 @@ Laravel Latest Long Term Support Version is Laravel 6, we do not recommend using
 
 ### 1. Requirements
 
-- [Laravel 6.x](https://laravel.com)
+- [Laravel](https://laravel.com)
 - [Composer](https://getcomposer.org/)
 
 #### 1.1 Optional
